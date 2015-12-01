@@ -50,8 +50,8 @@ void letTheWaterFall()
 void changeFlowerHp(int flowerID, float value)
 {
     flower_hps[flowerID]+=value;
-    if (flower_hps[flowerID]>100){
-      flower_hps[flowerID]=100;}
+    if (flower_hps[flowerID]>200){
+      flower_hps[flowerID]=200;}
     if (flower_hps[flowerID]<0) {
       flower_hps[flowerID] = 0;
     }
